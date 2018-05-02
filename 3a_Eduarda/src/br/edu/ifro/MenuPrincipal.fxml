@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.jfoenix.controls.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="br.edu.ifro.MenuPrincipalController">
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.MenuPrincipalController">
     <children>
         <Button fx:id="button" layoutX="114.0" layoutY="122.0" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="92.0" text="Salvar" textFill="#c61616" />
         <Label fx:id="label" layoutX="195.0" layoutY="169.0" minHeight="16" minWidth="69" textFill="#c90b0b" />
-      <Label layoutX="112.0" layoutY="46.0" text="Parte 1 concluída" />
+      <Label layoutX="112.0" layoutY="46.0" />
+      <JFXTextField layoutX="25.0" layoutY="63.0" text="Parte 1 concluída" />
     </children>
 </AnchorPane>
