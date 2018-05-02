@@ -7,11 +7,16 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.MenuPrincipalController">
+<AnchorPane id="AnchorPane" prefHeight="279.0" prefWidth="372.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.MenuPrincipalController">
     <children>
-        <Button fx:id="button" layoutX="114.0" layoutY="122.0" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="92.0" text="Salvar" textFill="#c61616" />
         <Label fx:id="label" layoutX="195.0" layoutY="169.0" minHeight="16" minWidth="69" textFill="#c90b0b" />
       <Label layoutX="112.0" layoutY="46.0" />
-      <JFXTextField layoutX="25.0" layoutY="63.0" text="Parte 1 concluída" />
+      <TextField fx:id="txtNumero1" layoutX="24.0" layoutY="51.0" />
+      <TextField fx:id="txtNumero2" layoutX="24.0" layoutY="131.0" />
+      <TextField fx:id="txtNumero3" layoutX="24.0" layoutY="219.0" />
+      <Label layoutX="24.0" layoutY="29.0" prefHeight="17.0" prefWidth="69.0" text="Numero 1" />
+      <Label layoutX="24.0" layoutY="114.0" text="Numero 2" />
+      <Label layoutX="24.0" layoutY="194.0" text="Resultado" />
+      <Button fx:id="btnSoma" layoutX="239.0" layoutY="51.0" mnemonicParsing="false" onAction="#soma" prefHeight="25.0" prefWidth="90.0" text="Soma" />
     </children>
 </AnchorPane>
