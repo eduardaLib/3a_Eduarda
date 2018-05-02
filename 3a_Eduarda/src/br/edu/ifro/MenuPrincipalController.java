@@ -19,12 +19,18 @@ import javafx.scene.control.TextField;
  * @author 04735666214
  */
 public class MenuPrincipalController implements Initializable {
+
+    private TextField txtNumero1;
     
     @FXML
-    private TextField txtNumero1,txtNumero2,txtResultado ;
+    private TextField txtNumero2,txtResultado ;
     
     @FXML
     private Button btnSoma;  ;
+    @FXML
+    private Label label;
+    @FXML
+    private TextField txtNumero3;
     
     @FXML
     private void soma (ActionEvent event) {
