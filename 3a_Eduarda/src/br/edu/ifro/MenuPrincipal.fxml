@@ -18,5 +18,25 @@
       <Label layoutX="24.0" layoutY="114.0" text="Numero 2" />
       <Label layoutX="24.0" layoutY="194.0" text="Resultado" />
       <Button fx:id="btnSoma" layoutX="239.0" layoutY="51.0" mnemonicParsing="false" onAction="#soma" prefHeight="25.0" prefWidth="90.0" text="Soma" />
+      <MenuBar layoutY="-2.0" prefHeight="25.0" prefWidth="372.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Cadastros">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#AbrirCadastroAluno" text="Alunos" />
+                  <MenuItem mnemonicParsing="false" onAction="#FecharProjeto" text="Fechar" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
     </children>
 </AnchorPane>
